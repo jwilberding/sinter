@@ -1,0 +1,21 @@
+basic_data_object:
+  plugins:
+      - json
+  fields:
+    my_tuple_field:
+      type:
+        tuple:
+          - string
+          - binary
+          - float
+          - integer
+          - list: binary
+      required: true
+      default_value:
+
+    my_list_field:
+      list: string
+    my_string_field: string
+    my_binary_field: binary
+    my_float_field: float
+    my_integer_field: integer

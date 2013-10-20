@@ -1,0 +1,9 @@
+basic_data_object:
+  fields:
+    my_bin_field:
+      type: binary
+      required: true
+    my_bin_field_with_default:
+      type:
+        binary:
+          args: <<"This is a simple default">>
